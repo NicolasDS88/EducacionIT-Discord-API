@@ -46,7 +46,7 @@ h1 {
 	height: 120px;
 	text-align: center;
 }
-.pokemon:hover{
+.poke-container hover{
     background: var(--clr) ;    
     box-shadow:  0 0 5px var(--clr),
                  0 0 25px var(--clr),
@@ -76,36 +76,7 @@ h1 {
 }
 
 
-.floating-btn {
-	border-radius: 26.5px;
-	background-color: #001F61;
-	border: 1px solid #001F61;
-	box-shadow: 0 16px 22px -17px #03153B;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	line-height: 20px;
-	padding: 12px 20px;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	z-index: 999;
-}
 
-.floating-btn:hover {
-	background-color: #ffffff;
-	color: #001F61;
-}
-
-.floating-btn:focus {
-	outline: none;
-}
-
-
-.floating-text a {
-	color: #FF7500;
-	text-decoration: none;
-}
 
 @media screen and (max-width: 480px) {
 
